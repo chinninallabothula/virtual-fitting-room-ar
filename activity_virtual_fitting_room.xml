@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.ar.sceneform.ux.ArFragment
+        android:id="@+id/ar_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:background="#F5F5F5">
+
+        <Button
+            android:id="@+id/btn_size_recommend"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Size"
+            android:layout_margin="4dp"
+            android:background="#667eea"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_fit_check"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Fit Check"
+            android:layout_margin="4dp"
+            android:background="#667eea"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_remove"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Remove"
+            android:layout_margin="4dp"
+            android:background="#ff6b6b"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>
